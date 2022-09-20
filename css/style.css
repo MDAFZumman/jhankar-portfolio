@@ -1,0 +1,84 @@
+/*==============
+Default Section 
+==============*/
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom: 50px;
+    height: 500px;
+}
+/*=============
+Top Section
+==============*/
+#top-section{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.heading{
+    font-size: 50px;
+}
+.highlight{
+    color: orange;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.half-width img{
+    width: 100%;
+}
+/*===============
+Middle Section
+================*/
+#middle-section{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/*===============
+Bottom Section
+===============*/
+#bottom-section{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-heading{
+    font-size: 30px;
+}
+.exp-area{
+    height: 80%;
+    width: 39%;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+#exp1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, rgb(255, 207, 202));
+    border-image-slice: 1;
+}
+#exp2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+/*=========
+Footer
+==========*/
+footer p{
+    text-align: center;
+    font-size: 14px;
+}

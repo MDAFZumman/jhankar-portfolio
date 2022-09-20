@@ -1,0 +1,81 @@
+/*===============
+For Tablet
+===============*/
+@media only screen and (min-width: 601px) and (max-width: 991px){
+    /*==============
+    Default Section 
+    ==============*/
+    .heading{
+        font-size: 2em;
+    }
+    p{
+        font-size: larger;
+    }
+    /*===============
+    Bottom Section
+    ===============*/
+    #bottom-section{
+        height: 600px;
+    }
+}
+/*===============
+For Mobile
+===============*/
+@media only screen and (min-width: 200px) and (max-width: 600px){
+    /*==============
+    Default Section 
+    ==============*/
+    section{
+        height: auto;
+        margin-bottom: 50px;
+    }
+    /*=============
+    Top Section
+    ==============*/
+    .half-width{
+        float: none;
+        width: 95%;
+        margin: 0 5px 50px 5px;
+        padding: 2%;
+    }
+    .heading{
+        font-size: 2em;
+    }
+    .link-btn{
+        padding: 10px 15px;
+        font-size: small;
+    }
+    /*===============
+    Middle Section
+    ===============*/
+    #middle-section{
+        background-position: bottom right;
+    }
+    /*===============
+    Bottom Section
+    ===============*/
+    #bottom-section{
+        height: auto;
+    }
+    #bottom-section h2{
+        font-size: 1.5em;
+    }
+    .exp-area{
+        height: auto;
+        width: 82%;
+        padding: 15px 2% 15px 2%;
+        margin: 40px 5% 0 5%;
+    }
+    #exp1{
+        border-left: 5px solid;
+    }
+    #exp2{
+        border-left: 5px solid;
+    }
+    /*=========
+    Footer
+    ==========*/
+    footer p{
+        font-size: 12px;
+    }
+}
